@@ -1,0 +1,132 @@
+@charset "UTF-8";
+body {
+	background-image: url(assets/site_bckgrd.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: center;
+	background-color: #301C02;
+}
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 12px;
+}
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+#wraper {
+	background-image: url(assets/page_bckgrd.jpg);
+	text-align: left;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#divheader {
+	text-align: left;
+	float: left;
+	width: 900px;
+}
+#divmainpicture {
+	text-align: left;
+	float: left;
+	width: 900px;
+}
+#dinav {
+	text-align: center;
+	float: left;
+	width: 900px;
+	background-image: url(assets/nav_bckgrd.jpg);
+	height: 30px;
+	background-color: #3D2917;
+	padding-top: 14px;
+}
+#divleftcolumn {
+	text-align: left;
+	float: left;
+	width: 375px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 50px;
+}
+#divrightcolumn {
+	text-align: left;
+	float: right;
+	width: 375px;
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-bottom: 15px;
+}
+#divcenter {
+	text-align: left;
+	float: left;
+	width: 800px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+#divfooter {
+	background-image: url(assets/footer_bckgrd.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	text-align: left;
+	clear: both;
+	height: 125px;
+	width: 800px;
+	padding-top: 25px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.bold {
+	font-weight: bold;
+}
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #71461C;
+}
+.redbold {
+	font-weight: bold;
+	color: #802727;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #EBB535;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: lighter;
+}
+#dinav a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#dinav a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#dinav a:hover {
+	color: #EBB534;
+	text-decoration: none;
+}
+#dinav a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#divcenter2 {
+	text-align: left;
+	float: left;
+	width: 800px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+.yellow {
+	color: #E8B232;
+}
