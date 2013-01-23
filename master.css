@@ -29,7 +29,6 @@ h1 {
 }
 #divheader {
 	text-align: left;
-	float: left;
 	width: 900px;
 }
 #divmainpicture {
@@ -39,7 +38,6 @@ h1 {
 }
 #dinav {
 	text-align: center;
-	float: left;
 	width: 900px;
 	background-image: url(assets/nav_bckgrd.jpg);
 	height: 30px;
@@ -129,4 +127,57 @@ h4 {
 }
 .yellow {
 	color: #E8B232;
+}
+
+#divmainpicture {
+	position: relative;
+	height: 267px;
+}
+
+#divmainpicture:after{
+    background:url('/assets/nav_bckgrd.jpg') no-repeat;
+    height:25px;
+    width:100%;
+}
+
+#divmainpicture img{
+	position: absolute;
+	z-index: 1;
+}
+
+#divmainpicture .active{
+	z-index: 3;
+}
+
+.callout{
+	width:90%;
+	margin:25px auto;
+}
+
+p.experiment1-title{
+	font-size: 20px;
+	font-family: Papyrus;
+	margin-left:5%;
+}
+
+.bio{
+    width:90%;
+    margin: 15px auto;
+    margin-bottom: 52px;
+}
+
+.bio .bio-image{
+    display:inline-block;
+    width:25%;
+    vertical-align: top;
+} 
+.bio .bio-image img{
+    width: 100%;
+    border-radius:5px;
+    box-shadow: 3px 3px 3px rgb(21, 21, 21);
+}
+
+.bio .bio-text{
+    display:inline-block;
+    width: 70%;
 }
